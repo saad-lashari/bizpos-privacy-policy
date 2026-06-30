@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — BizPOS</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1f2328;
+            --muted: #57606a;
+            --accent: #2557d6;
+            --border: #e2e5e9;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.65;
+        }
+
+        .wrap {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 48px 20px 80px;
+        }
+
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin: 0 0 8px;
+        }
+
+        header p {
+            color: var(--muted);
+            margin: 0;
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 19px;
+            margin-top: 40px;
+            margin-bottom: 12px;
+            border-left: 3px solid var(--accent);
+            padding-left: 10px;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        p,
+        li {
+            font-size: 15px;
+            color: var(--text);
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 14px;
+        }
+
+        th,
+        td {
+            border: 1px solid var(--border);
+            padding: 8px 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background: #f6f8fa;
+        }
+
+        a {
+            color: var(--accent);
+        }
+
+        .muted {
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        footer {
+            margin-top: 56px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+            color: var(--muted);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+
+        <header>
+            <h1>Privacy Policy — BizPOS</h1>
+            <p>Last updated: June 30, 2026</p>
+        </header>
+
+        <p>This Privacy Policy describes how BizPOS ("the App", "we", "us", or "our") collects, uses, stores, and
+            protects information when you use our Android, iOS, or Web application for point-of-sale billing and
+            inventory management.</p>
+
+        <p>By creating an account or using BizPOS, you agree to the practices described in this policy. If you do not
+            agree, please do not use the App.</p>
+
+        <h2>1. Who This Policy Applies To</h2>
+        <p>BizPOS is a business tool used by shop owners, retailers, and their staff ("Admin" and "Cashier" accounts).
+            Each Admin account represents a separate, isolated business. Data entered under one business account is
+            never visible to another business.</p>
+
+        <h2>2. Information We Collect</h2>
+
+        <h3>2.1 Account information</h3>
+        <ul>
+            <li>Email address and password (used for sign-in via Firebase Authentication)</li>
+            <li>A unique account/user ID generated automatically</li>
+            <li>Business profile details you choose to enter (shop name, address, contact info, logo)</li>
+        </ul>
+
+        <h3>2.2 Business and operational data</h3>
+        <p>To provide the App's core functionality, we store the data you enter while using BizPOS, including:</p>
+        <ul>
+            <li>Products, categories, brands, and inventory/stock records</li>
+            <li>Sales transactions and receipts</li>
+            <li>Customer records and customer ledgers</li>
+            <li>Supplier records, supplier ledgers, and purchase orders</li>
+            <li>Staff/cashier accounts, salary records, and expense entries</li>
+            <li>Reports generated from the above data</li>
+        </ul>
+        <p>This data is stored both locally on your device (for offline use) and in our cloud backend
+            (Firebase/Firestore), and is synced automatically when an internet connection is available.</p>
+
+        <h3>2.3 Device and usage information</h3>
+        <ul>
+            <li>App activity such as feature usage, in order to operate and improve the App</li>
+            <li>Diagnostic and crash data, if Firebase Crashlytics/Analytics is enabled</li>
+            <li>Advertising identifiers, only if and when ads are shown (see Section 5)</li>
+        </ul>
+
+        <h2>3. How We Use Your Information</h2>
+        <ul>
+            <li>To create and manage your account, including Admin and Cashier roles</li>
+            <li>To provide core App functionality: billing, inventory tracking, reporting, and offline sync</li>
+            <li>To keep your data isolated and secure per business</li>
+            <li>To detect, prevent, and fix technical issues</li>
+            <li>To display advertisements, where applicable, and measure their performance</li>
+        </ul>
+        <p>We do <strong>not</strong> sell your personal or business data to third parties.</p>
+
+        <h2>4. Data Storage and Security</h2>
+        <ul>
+            <li>Cloud data is stored using Google Firebase (Firestore, Authentication, and Storage), which encrypts data
+                in transit (HTTPS/TLS).</li>
+            <li>Local data is stored in an on-device SQLite database for offline access and is synced to the cloud once
+                a connection is restored.</li>
+            <li>Each business's data is logically isolated and is not accessible to other businesses or users.</li>
+            <li>Cashier accounts created by an Admin only have access to the functionality the Admin grants them.</li>
+        </ul>
+
+        <h2>5. Advertising</h2>
+        <p>BizPOS may display advertisements through Google AdMob (on Android/iOS) and Google AdSense (on Web). Some
+            advertising features may be enabled or disabled remotely and may not always be active.</p>
+        <p>When ads are shown, Google and its advertising partners may collect and use the following to serve and
+            measure ads:</p>
+        <table>
+            <tr>
+                <th>Data type</th>
+                <th>Purpose</th>
+            </tr>
+            <tr>
+                <td>Advertising ID / Device identifiers</td>
+                <td>Ad personalization and measurement</td>
+            </tr>
+            <tr>
+                <td>Approximate location (if permitted)</td>
+                <td>Ad relevance</td>
+            </tr>
+            <tr>
+                <td>App interaction data</td>
+                <td>Ad performance measurement</td>
+            </tr>
+        </table>
+        <p>You can learn more about how Google uses this data at <a
+                href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google's
+                Partner Sites policy</a>, and manage ad personalization through your device's ad settings.</p>
+
+        <h2>6. Data Sharing</h2>
+        <p>We share information only in the following limited circumstances:</p>
+        <ul>
+            <li>With Google Firebase, our backend infrastructure provider, to store and process app data</li>
+            <li>With Google AdMob/AdSense, only when advertisements are displayed (see Section 5)</li>
+            <li>If required by law, regulation, legal process, or government request</li>
+            <li>To protect the rights, property, or safety of BizPOS, our users, or the public</li>
+        </ul>
+        <p>We do not share your business or financial data with any third party for marketing purposes.</p>
+
+        <h2>7. Data Retention and Deletion</h2>
+        <p>We retain your account and business data for as long as your account is active, or as needed to provide the
+            App's services.</p>
+        <p>You may request deletion of your account and associated data at any time by contacting us at the email
+            address below. Upon a verified request, we will delete your account data from our systems within a
+            reasonable timeframe, except where retention is required by law.</p>
+
+        <h2>8. Children's Privacy</h2>
+        <p>BizPOS is a business management tool intended for shop owners, staff, and adult business users. It is not
+            directed at children, and we do not knowingly collect personal information from children under 13 (or the
+            relevant minimum age in your jurisdiction).</p>
+
+        <h2>9. Your Rights</h2>
+        <p>Depending on your location, you may have rights to access, correct, export, or delete your personal data. To
+            exercise these rights, contact us using the details below.</p>
+
+        <h2>10. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated
+            "Last updated" date. Continued use of the App after changes are posted constitutes acceptance of the revised
+            policy.</p>
+
+        <h2>11. Contact Us</h2>
+        <p>If you have questions about this Privacy Policy or wish to request data deletion, please contact us at:</p>
+        <p>
+            📧 Email: <a href="mailto:baloxtech@gmail.com">YOUR_SUPPORT_EMAIL@example.com</a><br>
+        </p>
+
+        <footer>
+            <p class="muted">This page is hosted for the BizPOS Android/iOS/Web application, in compliance with Google
+                Play Developer Program Policies.</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
